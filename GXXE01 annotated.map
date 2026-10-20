@@ -14413,6 +14413,7 @@
 8041cc28 00000010 8041cc28 0 c2r$localstatic3$GSgfx_GCWriteTevOrder  GSgfxM.a layer.o
 8041cc38 00000020 8041cc38 0 _layerPerfColor  GSgfxM.a layer.o
 8041cc58 00000018 8041cc58 0 g_projViewPort  GSgfxM.a project.o
+8041cc70 000000dc 8041cc70 0 _videoModeList  GSgfxM.a video.o
 8041cd50 00002640 8041cd50 0 _vfPredefFmt  GSgfxM.a vf.o
 8041f390 0000005c 8041f390 0 _vfElemTable  GSgfxM.a vf.o
 8041f548 00000040 8041f548 0 GSgfx_GCTmemRegions  GSgfxM.a gamecube.o

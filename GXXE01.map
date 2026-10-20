@@ -14469,9 +14469,12 @@
 8041ca94 00000030 8041ca94 0 templateDefense	mewwaza.a C:\pxdvs\program\game\src\app\mewwaza\mewwazadata.o
 8041cac4 00000018 8041cac4 0 templateRandom	mewwaza.a C:\pxdvs\program\game\src\app\mewwaza\mewwazadata.o
 8041cadc 00000018 8041cadc 0 wazaTmplTbl	mewwaza.a C:\pxdvs\program\game\src\app\mewwaza\mewwazadata.o
-8041cb88 00000084 8041cb88 0 @1636	GSlogM.a C:\pxdvs\program\game\src\GSAPI\GSlog\GSlog.o
-8041cc58 000000dc 8041cc58 0 _videoModeList	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\video.o
-8041cd38 00002640 8041cd38 0 _vfPredefFmt	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\vf.o
+8041cba0 00000084 8041cba0 0 @1636	GSlogM.a C:\pxdvs\program\game\src\GSAPI\GSlog\GSlog.o
+8041cc28 00000010 8041cc28 0 c2r$localstatic3$GSgfx_GCWriteTevOrder	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\layer.o
+8041cc38 00000020 8041cc38 0 _layerPerfColor	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\layer.o
+8041cc58 00000018 8041cc58 0 g_projViewPort	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\project.o
+8041cc70 000000dc 8041cc70 0 _videoModeList	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\video.o
+8041cd50 00002640 8041cd50 0 _vfPredefFmt	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\vf.o
 8041f3d8 00000068 8041f3d8 0 @1523	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o
 8041f440 00000020 8041f440 0 @1652	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o
 8041f460 00000024 8041f460 0 @1651	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o

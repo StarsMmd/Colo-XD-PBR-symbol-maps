@@ -9482,9 +9482,6 @@
 8037c44c 00000018 8037c44c 0 templateRandom	mewwaza.a C:\pxdvs\program\game\src\app\mewwaza\mewwazadata.o
 8037c464 00000018 8037c464 0 wazaTmplTbl	mewwaza.a C:\pxdvs\program\game\src\app\mewwaza\mewwazadata.o
 8037c510 00000084 8037c510 0 @1636	GSlogM.a C:\pxdvs\program\game\src\GSAPI\GSlog\GSlog.o
-8037c5c8 00000018 8037c5c8 0 g_projViewPort	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\project.o
-8037c5e0 000000dc 8037c5e0 0 _videoModeList	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\video.o
-8037c6c0 00002640 8037c6c0 0 _vfPredefFmt	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\vf.o
 8037ed60 00000068 8037ed60 0 @1523	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o
 8037edc8 00000020 8037edc8 0 @1652	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o
 8037ede8 00000024 8037ede8 0 @1651	GSgfxM.a C:\pxdvs\program\game\src\GSAPI\GSgfx\dl.o
