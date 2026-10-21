@@ -3057,7 +3057,7 @@
 800f0f4c 00000120 800f0f4c 0 zz_00f0f4c_
 800f106c 0000007c 800f106c 0 zz_Script_goto_function
 800f10e8 000002e8 800f10e8 0 zz_Script_interpreter_0x25_callstd
-800f13d0 000002f0 800f13d0 0 zz_Script_interpreter_0x24_reserve?
+800f13d0 000002f0 800f13d0 0 zz_Script_interpreter_0x24_yield
 800f16c0 0000034c 800f16c0 0 zz_Script_interpreter_0x23_printf
 800f1a0c 0000042c 800f1a0c 0 zz_Script_interpreter_0x22_or_logical
 800f1e38 0000042c 800f1e38 0 zz_Script_interpreter_0x21_and_logical
@@ -3076,10 +3076,10 @@
 800f4818 00000420 800f4818 0 zz_Script_interpreter_0x16_mod
 800f4c38 000003f4 800f4c38 0 zz_Script_interpreter_0x15_divide
 800f502c 000003d8 800f502c 0 zz_Script_interpreter_0x14_multiply
-800f5404 000001d8 800f5404 0 zz_Script_interpreter_0x13
+800f5404 000001d8 800f5404 0 zz_Script_interpreter_0x13_push_var_2
 800f55dc 00000214 800f55dc 0 zz_Script_interpreter_0x12_negate
-800f57f0 0000024c 800f57f0 0 zz_Script_interpreter_0x11_not?
-800f5a3c 00000264 800f5a3c 0 zz_Script_interpreter_0x10
+800f57f0 0000024c 800f57f0 0 zz_Script_interpreter_0x11_not
+800f5a3c 00000264 800f5a3c 0 zz_Script_interpreter_0x10_push_multi_var
 800f5ca0 0000024c 800f5ca0 0 zz_Script_interpreter_0x0f_push_var
 800f5eec 000003d0 800f5eec 0 zz_Script_interpreter_0x0e_or
 800f62bc 000003d0 800f62bc 0 zz_Script_interpreter_0x0d_and
@@ -3093,16 +3093,16 @@
 800f6bac 00000010 800f6bac 0 zz_Script_interpreter_0x01_end
 800f6bbc 00000008 800f6bbc 0 zz_Script_interpreter_0x00_nop
 800f6bc4 00000154 800f6bc4 0 zz_Script_interpreter
-800f6d18 00000350 800f6d18 0 zz_00f6d18_
+800f6d18 00000350 800f6d18 0 zz_Script_task_setup
 800f7068 000000a0 800f7068 0 zz_00f7068_
 800f7108 00000064 800f7108 0 zz_00f7108_
 800f716c 00000108 800f716c 0 zz_00f716c_
 800f7274 000000a4 800f7274 0 OSSetSoundMode
-800f7318 0000011c 800f7318 0 zz_00f7318_
+800f7318 0000011c 800f7318 0 zz_Script_task_spawn_varargs
 800f7434 000001c8 800f7434 0 zz_Script_interpreter_2
-800f75fc 00000010 800f75fc 0 zz_00f75fc_
+800f75fc 00000010 800f75fc 0 zz_Script_set_builtin_function_table
 800f760c 000000d8 800f760c 0 zz_00f760c_
-800f76e4 00000074 800f76e4 0 zz_00f76e4_
+800f76e4 00000074 800f76e4 0 zz_Script_register_and_relocate
 800f7758 0000014c 800f7758 0 zz_00f7758_
 800f78a4 0000007c 800f78a4 0 zz_00f78a4_
 800f7920 00000074 800f7920 0 zz_00f7920_
@@ -3132,7 +3132,7 @@
 800f915c 000000b4 800f915c 0 zz_00f915c_
 800f9210 000000c4 800f9210 0 zz_00f9210_
 800f92d4 00000044 800f92d4 0 zz_00f92d4_
-800f9318 00000060 800f9318 0 zz_00f9318_
+800f9318 00000060 800f9318 0 zz_Resource_cache_fetch_by_type_and_id
 800f9378 000000a0 800f9378 0 zz_00f9378_
 800f9418 0000012c 800f9418 0 zz_00f9418_
 800f9544 0000012c 800f9544 0 zz_00f9544_
@@ -3168,7 +3168,7 @@
 800fc244 00000064 800fc244 0 zz_00fc244_
 800fc294 00000008 800fc294 0 setNextTaskMode__12FloorManagerF9floorTask  floor.a floorManager.o
 800fc2a8 000000f4 800fc2a8 0 zz_00fc2a8_
-800fc39c 0000017c 800fc39c 0 zz_00fc39c_
+800fc39c 0000017c 800fc39c 0 zz_Script_registry_insert
 800fc518 00000010 800fc518 0 zz_00fc518_
 800fc528 000002b8 800fc528 0 zz_00fc528_
 800fc7e0 00000b68 800fc7e0 0 zz_00fc7e0_
@@ -8913,3 +8913,5 @@
 
 .data section layout
 8000c318 00000008 8000c318 0 fightAiCombo_null_Continue  fightAiM.a fightTrainerAiComboContinueFunc
+802e1cf0 00000b94 802e1cf0 0 zz_Script_builtin_function_table
+803155d0 00000098 803155d0 0 zz_Script_opcode_handler_table

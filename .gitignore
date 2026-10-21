@@ -1,2 +1,11 @@
-address based/.DS_Store
 .DS_Store
+address based/.DS_Store
+
+# Derived: produced from the tracked maps by scripts/demangle_maps.py.
+*.demangled.map
+
+# Local tooling. The maps are rebuilt by
+# GoD-Tool/scripts/analysis/{extract_dols,audit_symbol_maps,fix_symbol_maps}.py,
+# which is where the provenance lives.
+scripts/
+__pycache__/
